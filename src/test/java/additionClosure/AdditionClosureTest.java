@@ -23,10 +23,10 @@ public class AdditionClosureTest {
 		assertEquals(false, AdditionClosure.isClosed(Arrays.asList(-2, 3), 4));
 	}
 
-//	@Test
-//	public void test3() {
-//		assertEquals(true, AdditionClosure.isClosed(Arrays.asList(1, 1, 0), 2));
-//	}
+	@Test
+	public void test3() {
+		assertEquals(true, AdditionClosure.isClosed(Arrays.asList(1, 1, 0), 2));
+	}
 
 	@Test
 	public void test4() {
